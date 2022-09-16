@@ -108,10 +108,29 @@ a:hover {
 
 .infoCont {
     width: 800px;
-    height: 600px;
+    height: 400px;
+
+    margin-top: 5%
 }
 
 .infoMain {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;;
+    gap: 3%
+}
+
+.infoCont h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  15px auto;
+    font-size: 32px;
+    color: 
+}
+
+.infoDiv {
+    width: 25%;
+    height: 50%
 }
