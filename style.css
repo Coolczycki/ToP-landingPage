@@ -10,13 +10,23 @@ ul {
     margin: 0;
 }
 
+a {
+    color: black;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
 .topCont {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 800px;
-    height: 300px;
-    background-color: darkred;
+    height: 400px;
+    background-color: #1F2937;
 }
 
 .topHead {
@@ -28,11 +38,27 @@ ul {
     height: 30px;
 }
 
+.topHeadLeft h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .bigTop {
     display: flex;
     width: 80%;
-    background-color: aquamarine;
+    background-color: #1F2937;
     height: auto;
+}
+
+.bigTopTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+.bigTopP {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .signUp {
@@ -41,7 +67,7 @@ ul {
     padding: 8px 8px;
     border: none;
     border-radius: 10%;
-    background-color: blue;
+    background-color: #3882F6;
 }
 
 .signUp:hover {
@@ -51,11 +77,13 @@ ul {
 
 .topHeadRight {
     display: flex;
+    gap: 20px;
 
 }
 
 .bigTopLeft {
     width: 50%;
+    margin-right: 5%;
 }
 
 .bigTopRight {
