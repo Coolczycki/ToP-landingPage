@@ -107,7 +107,7 @@ a:hover {
 /* INFO CONT STYLES STARTS HERE */
 
 .infoCont {
-    width: 800px;
+    width: 600px;
     height: 400px;
 
     margin-top: 5%
@@ -118,19 +118,19 @@ a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;;
-    gap: 3%
+    gap: 5%
 }
 
 .infoCont h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:  15px auto;
+    margin:  45px auto;
     font-size: 32px;
 }
 
 .infoDiv {
-    width: 25%;
+    width: 33%;
     height: 50%
 }
 
@@ -139,16 +139,16 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 800px;
     background-color: #E5E7EB;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .tekst {
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 70%;
+    width: 80%;
     font-size: 1.5em;
     transform: scale(1 1.5);
     font-weight: 100;
@@ -157,9 +157,20 @@ a:hover {
 }
 
 .podpis {
-    width: 70%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items:center;
     align-self: flex-end;
+
+}
+
+/* blue box styles */
+.akcjaCont {
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    margin-top: 7%;
+    background-color: #3882F6;
+    color: white;
 }
