@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topCont {
+    width: 600px;
+    height: auto;
+    background-color: darkred;
+}
+
+.topHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+}
+
+.bigTop {
+    display: flex;
+    width: 100%;
+    background-color: aquamarine;
+    height: auto;
+}
+
+.topHeadRight {
+    display: flex;
+
+}
+
+.bigTopLeft {
+    width: 50%;
+}
+
+.bigTopRight {
+    width: 50%;
+    background-color: blueviolet;
+}
