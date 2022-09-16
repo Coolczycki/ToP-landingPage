@@ -127,10 +127,39 @@ a:hover {
     justify-content: center;
     margin:  15px auto;
     font-size: 32px;
-    color: 
 }
 
 .infoDiv {
     width: 25%;
     height: 50%
+}
+
+.quoteCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #E5E7EB;
+    margin-top: 5%;
+}
+
+.tekst {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 70%;
+    font-size: 1.5em;
+    transform: scale(1 1.5);
+    font-weight: 100;
+    color: #1F2937
+
+}
+
+.podpis {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-self: flex-end;
 }
